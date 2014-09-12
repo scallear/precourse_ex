@@ -1,13 +1,15 @@
-print "Give me a number between 0 and 100!"
+print "Give me a number between 0 and 101!"
 
 num = gets.chomp.to_i
 
 
-if num < 50
-	puts "Your number is less than 50"
-elsif num <=100
-	puts "Your number between 50 and 100"
+if num < 1
+	puts "#{num} is outside of the range!"
+elsif num < 50
+	puts "#{num} is between 0 and 50!"
+elsif num < 101
+	puts "#{num} is between 49 and 101!"
 else
-	puts "You didn't pick a number between 1 and 100"
+	puts "#{num} is outside of the range!"
 end
 
