@@ -1,8 +1,0 @@
-def scream(words)
-  words = words + "!!!!"
-  puts words
-end
-
-scream("Yippeee")
-
-This puts "Yippeee!!!!" to the console. Returns nil.
