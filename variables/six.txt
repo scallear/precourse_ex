@@ -1,1 +1,0 @@
-The program is trying to reference "shoes" which is undefined or not within the scope.

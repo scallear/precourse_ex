@@ -1,3 +1,0 @@
-1st time the program puts 3.
-
-2nd time the program has an error message for x has not been defined at the global level.
